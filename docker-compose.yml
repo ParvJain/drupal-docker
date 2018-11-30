@@ -17,8 +17,6 @@ services:
     image: parv/docker-drupal:v1
     volumes:
       - ./app:/var/www
-    ports:
-      - "80:80"
 
   drupal-mysql:
     image: mysql:5.7
